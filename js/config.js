@@ -21,7 +21,6 @@ const CONFIG = {
       url: 'https://mail.google.com/mail/u/0/#inbox',
       color: '#bb3d3d',
       icon: 'mail',
-      quickLaunch: true,
     },
     {
       category: 'Geral',
@@ -30,7 +29,6 @@ const CONFIG = {
       url: 'https://www.pinterest.pt',
       color: 'linear-gradient(135deg, #ff0000, #ffffff)',
       icon: 'pinterest',
-      quickLaunch: false,
     },
     {
       category: 'Geral',
@@ -39,9 +37,15 @@ const CONFIG = {
       url: 'https://www.deepl.com/translator',
       color: '#1a73e8',
       icon: 'translate',
-      quickLaunch: false,
     },
-
+    {
+      category: 'Geral',
+      name: 'Photopea',
+      key: 'pp',
+      url: 'https://www.photopea.com/',
+      color: '#55be6d',
+      icon: 'photopea',
+    },
 
     {
       category: 'Programação',
@@ -50,7 +54,6 @@ const CONFIG = {
       url: 'https://plus.diolinux.com.br/',
       color: 'linear-gradient(135deg, #0F65AC, #BD0AA1)',
       icon: 'dplus',
-      quickLaunch: false,
     },
     {
       category: 'Programação',
@@ -59,7 +62,6 @@ const CONFIG = {
       url: 'https://github.com/Matelios',
       color: 'linear-gradient(135deg, #33373A, #484949)',
       icon: 'github',
-      quickLaunch: false,
     },
     {
       category: 'Programação',
@@ -68,38 +70,49 @@ const CONFIG = {
       url: 'https://stackoverflow.com',
       color: 'linear-gradient(135deg, #d6671f, #212121',
       icon: 'stackoverflow',
-      quickLaunch: false,
     },
- 
+    {
+      category: 'Programação',
+      name: 'WebForma',
+      key: 'wb',
+      url: 'http://epl.webforma.pt/?erro=Acesso+n%C3%A3o+autorizado!',
+      color: '#004daa',
+      icon: 'webforma',
+    },
+
 
     {
-      category: 'M\xCDdia',
+      category: 'Mídia',
       name: 'YouTube',
       key: 'yt',
       url: 'https://youtube.com',
       color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
       icon: 'youtube',
-      quickLaunch: true,
     },
     {
-      category: 'M\xCDdia',
+      category: 'Mídia',
       name: 'ESound',
       key: 'es',
       url: 'https://esound.app/app/library',
       color: '#1ec60d',
       icon: 'esound',
-      quickLaunch: false,
     },
     {
-      category: 'M\xCDdia',
+      category: 'Mídia',
       name: 'MangaDex',
       key: 'md',
       url: 'https://mangadex.org/titles/follows',
       color: '#e06f54',
       icon: 'mangadex',
-      quickLaunch: false,
     },
-
+    {
+      category: 'Mídia',
+      name: 'Neflix',
+      key: 'nt',
+      url: 'https://www.netflix.com/browse',
+      color: '#BA0000',
+      icon: 'netflix',
+    },
 
     {
       category: 'Social',
@@ -108,7 +121,6 @@ const CONFIG = {
       url: 'https://www.twitter.com',
       color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
       icon: 'twitter',
-      quickLaunch: true,
     },
     {
       category: 'Social',
@@ -117,7 +129,6 @@ const CONFIG = {
       url: 'https://reddit.com',
       color: 'linear-gradient(135deg, #FF8456, #FF4500)',
       icon: 'reddit',
-      quickLaunch: false,
     },
     {
       category: 'Social',
@@ -126,7 +137,14 @@ const CONFIG = {
       url: 'https://www.instagram.com/',
       color: 'linear-gradient(135deg, #C13584, #FCAF45',
       icon: 'instagram',
-      quickLaunch: true,
+    },
+    {
+      category: 'Social',
+      name: 'AniList',
+      key: 'al',
+      url: 'https://anilist.co/user/Matelios/',
+      color: '#113992',
+      icon: 'anilist',
     },
 
 
