@@ -143,7 +143,7 @@ const CONFIG = {
       name: 'AniList',
       key: 'al',
       url: 'https://anilist.co/user/Matelios/',
-      color: '#113992',
+      color: '#0B1622',
       icon: 'anilist',
     },
 
