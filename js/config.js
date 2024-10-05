@@ -7,19 +7,18 @@ const CONFIG = {
    * Update line 11 and 13 if you prefer using Google.
    */
   commands: [{
-      name: 'Google',
+      name: 'Duckduckgo',
       key: '*',
       url: 'https://google.com',
-      search: '/?q={}'
+      search: '/search?q={}'
     },
-
 
     {
       category: 'Geral',
       name: 'E-Mail',
       key: 'gm',
       url: 'https://mail.google.com/mail/u/0/#inbox',
-      color: '#bb3d3d',
+      color: '#c93a35',
       icon: 'mail',
     },
     {
@@ -27,7 +26,7 @@ const CONFIG = {
       name: 'GitHub',
       key: 'gt',
       url: 'https://github.com/Matelios',
-      color: 'linear-gradient(135deg, #33373A, #484949)',
+      color: '#24292E',
       icon: 'github',
     },
     {
@@ -35,7 +34,7 @@ const CONFIG = {
       name: 'Tradutor',
       key: 'tr',
       url: 'https://www.deepl.com/translator',
-      color: '#1a73e8',
+      color: '#042b48',
       icon: 'translate',
     },
     {
@@ -43,7 +42,7 @@ const CONFIG = {
       name: 'Photopea',
       key: 'pp',
       url: 'https://www.photopea.com/',
-      color: '#55be6d',
+      color: '#18a497',
       icon: 'photopea',
     },
 
@@ -52,7 +51,7 @@ const CONFIG = {
       name: 'YouTube',
       key: 'yt',
       url: 'https://youtube.com',
-      color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
+      color: '#FF0000',
       icon: 'youtube',
     },
     {
@@ -68,7 +67,7 @@ const CONFIG = {
       name: 'MangaDex',
       key: 'md',
       url: 'https://mangadex.org/titles/follows',
-      color: '#e06f54',
+      color: '#d45d32',
       icon: 'mangadex',
     },
     {
@@ -93,7 +92,7 @@ const CONFIG = {
       name: 'Reddit',
       key: 'rt',
       url: 'https://reddit.com',
-      color: 'linear-gradient(135deg, #FF8456, #FF4500)',
+      color: '#FF4500',
       icon: 'reddit',
     },
     {
@@ -109,11 +108,9 @@ const CONFIG = {
       name: 'Pinterest',
       key: 'pt',
       url: 'https://www.pinterest.pt',
-      color: 'linear-gradient(135deg, #ff0000, #ffffff)',
+      color: 'linear-gradient(135deg, #ff4343, #914f4f)',
       icon: 'pinterest',
     },
-
-
   ],
 
   /**
@@ -128,7 +125,7 @@ const CONFIG = {
    *
    * - "Commands" suggestions come from CONFIG.commands
    * - "Default" suggestions come from CONFIG.defaultSuggestions
-   * - "Google" suggestions come from the duck duck go search api
+   * - "DuckDuckGo" suggestions come from the duck duck go search api
    * - "History" suggestions come from your previously entered queries
    */
   influencers: [{
@@ -140,11 +137,11 @@ const CONFIG = {
       limit: 0
     },
     {
-      name: 'Google',
+      name: 'History',
       limit: 5
     },
     {
-      name: 'History',
+      name: 'DuckDuckGo',
       limit: 5
     },
   ],
@@ -153,7 +150,8 @@ const CONFIG = {
    * Default search suggestions for the specified queries.
    */
   defaultSuggestions: {
-
+    g: ['g/issues', 'g/pulls', 'gist.github.com'],
+    r: ['r/r/unixporn', 'r/r/startpages', 'r/r/webdev', 'r/r/technology'],
   },
 
   /**
