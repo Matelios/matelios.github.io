@@ -7,9 +7,9 @@ const CONFIG = {
    * Update line 11 and 13 if you prefer using Google.
    */
   commands: [{
-      name: 'DuckDuckGO',
+      name: 'Google',
       key: '*',
-      url: 'https://duckduckgo.com',
+      url: 'https://google.com',
       search: '/?q={}'
     },
 
@@ -24,11 +24,11 @@ const CONFIG = {
     },
     {
       category: 'Geral',
-      name: 'Pinterest',
-      key: 'pt',
-      url: 'https://www.pinterest.pt',
-      color: 'linear-gradient(135deg, #ff0000, #ffffff)',
-      icon: 'pinterest',
+      name: 'GitHub',
+      key: 'gt',
+      url: 'https://github.com/Matelios',
+      color: 'linear-gradient(135deg, #33373A, #484949)',
+      icon: 'github',
     },
     {
       category: 'Geral',
@@ -48,40 +48,6 @@ const CONFIG = {
     },
 
     {
-      category: 'Programação',
-      name: 'Diolinux Plus',
-      key: 'dl',
-      url: 'https://plus.diolinux.com.br/',
-      color: 'linear-gradient(135deg, #0F65AC, #BD0AA1)',
-      icon: 'dplus',
-    },
-    {
-      category: 'Programação',
-      name: 'GitHub',
-      key: 'gt',
-      url: 'https://github.com/Matelios',
-      color: 'linear-gradient(135deg, #33373A, #484949)',
-      icon: 'github',
-    },
-    {
-      category: 'Programação',
-      name: 'Stack Overflow',
-      key: 'so',
-      url: 'https://stackoverflow.com',
-      color: 'linear-gradient(135deg, #d6671f, #212121',
-      icon: 'stackoverflow',
-    },
-    {
-      category: 'Programação',
-      name: 'WebForma',
-      key: 'wb',
-      url: 'http://epl.webforma.pt/?erro=Acesso+n%C3%A3o+autorizado!',
-      color: '#004daa',
-      icon: 'webforma',
-    },
-
-
-    {
       category: 'Mídia',
       name: 'YouTube',
       key: 'yt',
@@ -91,7 +57,7 @@ const CONFIG = {
     },
     {
       category: 'Mídia',
-      name: 'ESound',
+      name: 'eSound',
       key: 'es',
       url: 'https://esound.app/app/library',
       color: '#1ec60d',
@@ -140,11 +106,11 @@ const CONFIG = {
     },
     {
       category: 'Social',
-      name: 'AniList',
-      key: 'al',
-      url: 'https://anilist.co/user/Matelios/',
-      color: '#0B1622',
-      icon: 'anilist',
+      name: 'Pinterest',
+      key: 'pt',
+      url: 'https://www.pinterest.pt',
+      color: 'linear-gradient(135deg, #ff0000, #ffffff)',
+      icon: 'pinterest',
     },
 
 
@@ -154,7 +120,7 @@ const CONFIG = {
    * Get suggestions as you type.
    */
   suggestions: true,
-  suggestionsLimit: 4,
+  suggestionsLimit: 10,
 
   /**
    * The order and limit for each suggestion influencer. An "influencer" is
@@ -162,7 +128,7 @@ const CONFIG = {
    *
    * - "Commands" suggestions come from CONFIG.commands
    * - "Default" suggestions come from CONFIG.defaultSuggestions
-   * - "DuckDuckGo" suggestions come from the duck duck go search api
+   * - "Google" suggestions come from the duck duck go search api
    * - "History" suggestions come from your previously entered queries
    */
   influencers: [{
@@ -174,12 +140,12 @@ const CONFIG = {
       limit: 0
     },
     {
-      name: 'History',
-      limit: 2
+      name: 'Google',
+      limit: 5
     },
     {
-      name: 'DuckDuckGo',
-      limit: 2
+      name: 'History',
+      limit: 5
     },
   ],
 
