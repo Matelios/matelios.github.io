@@ -81,11 +81,11 @@ const CONFIG = {
 
     {
       category: 'Social',
-      name: 'Twitter',
-      key: 'tt',
-      url: 'https://www.twitter.com',
-      color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
-      icon: 'twitter',
+      name: 'Tumblr',
+      key: 'tb',
+      url: 'https://www.tumblr.com/dashboard/following',
+      color: '#021A35',
+      icon: 'tumblr',
     },
     {
       category: 'Social',
